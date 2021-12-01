@@ -1,0 +1,3 @@
+#!/bin/bash
+g++ -o myLED.cgi -I/usr/local/include -L/usr/local/lib -lcgicc myLED.cpp GPIO.cpp -pthread
+
